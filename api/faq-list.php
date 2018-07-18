@@ -64,5 +64,4 @@ if(isset($_REQUEST['p_name'])){
 }
 $response=json_encode($result_arr,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
 echo $response;
-
 ?>
